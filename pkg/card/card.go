@@ -1,7 +1,7 @@
 package card
 
 import (
-	"github.com:bahodurnazarov/goTask/pkg/types"
+	"github.com/bahodurnazarov/goTask/pkg/types"
 )
 
 func Issue() types.Card {
