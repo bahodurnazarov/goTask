@@ -2,9 +2,15 @@ package types
 
 type Money int
 
-type dirams Money
-
 type Currency string
+
+type Category string
+
+type Payment struct {
+	ID int
+	Amount Money
+	Category Category
+}
 
 type Transaction struct {
 	Amount Money
